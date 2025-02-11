@@ -141,7 +141,7 @@ export default function Login() {
               <button
                 type="submit"
                 disabled={!formik.isValid || formik.isSubmitting}
-                className={`bg-primary-600 rounded-lg py-2 px-8 text-white text-xl my-3 ${
+                className={`bg-green-500 rounded-lg py-2 px-8 text-white text-xl my-3 ${
                   !formik.isValid || formik.isSubmitting
                     ? "opacity-50 cursor-not-allowed"
                     : ""
